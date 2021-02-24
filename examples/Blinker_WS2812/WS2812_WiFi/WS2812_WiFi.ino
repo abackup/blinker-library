@@ -64,7 +64,7 @@ Adafruit_NeoPixel pixels = Adafruit_NeoPixel(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ80
 
 #define RGB_1 "RGBKey"
 
-BlinkerRGB WS2812(RGB_1);
+BlinkerRGB WS2812("RGB_1");
 
 void ws2812_callback(uint8_t r_value, uint8_t g_value, uint8_t b_value, uint8_t bright_value)
 {
